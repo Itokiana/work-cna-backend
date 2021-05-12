@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"unwantedRecommendations": [
+		  "pmneo.tsimporter",
+		  "stringham.move-ts",
+		  "rbbit.typescript-hero",
+		  "esbenp.prettier-vscode",
+		  "mscolnick.export-typescript",
+		  "ms-vscode.vscode-typescript-next",
+		  "dskwrk.vscode-generate-getter-setter",
+		],
+	},
+	"settings": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"[typescript]": {
+		  "editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"export-typescript.excludes":["**/*.{spec.ts,spec.tsx}"],
+		"export-typescript.includes":["**/*.{ts,tsx}"],
+		"export-typescript.exportStar": false,
+		"editor.tabSize": 4,
+		"prettier.tabWidth": 4,
+		"prettier.useTabs": true,
+	},
+}

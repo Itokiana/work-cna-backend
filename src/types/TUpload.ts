@@ -1,0 +1,1 @@
+export type TUpload = 'avatar' | 'file' | 'chat' | 'chat_groupe_avatar';
